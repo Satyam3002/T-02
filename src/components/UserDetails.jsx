@@ -1,4 +1,4 @@
-// components/UserDetails.js
+
 
 const UserDetails = ({ user }) => {
     if (!user) return <p className="text-center mt-4 text-gray-600">Select a user to see details</p>;

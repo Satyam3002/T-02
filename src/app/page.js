@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Layout from './layout';
 import UserList from '../components/UserList';
-import { ClipLoader } from 'react-spinners'; // Import ClipLoader from react-spinners
-import { css } from '@emotion/react'; // Import css from @emotion/react for styling
+import { ClipLoader } from 'react-spinners'; 
+import { css } from '@emotion/react'; 
 
 const override = css`
   display: block;

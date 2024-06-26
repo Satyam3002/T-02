@@ -36,8 +36,6 @@ const UserList = ({ users, loading, error }) => {
             </div>
 
             <div className="text-end mt-auto">
-              {" "}
-              {/* Place button at bottom on mobile */}
               <Link legacyBehavior href={`/users/${user.id}`}>
                 <a className="relative inline-block text-lg group">
                   <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
