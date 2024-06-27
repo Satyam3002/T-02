@@ -7,15 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-        backgroundImage: {
-            'custom-pattern': 'radial-gradient(circle at 1px 1px, #DEDAD3 1px, transparent 0)',
-          },
-          backgroundSize: {
-            '10': '10px 10px',
-          },
-          colors: {
-            'custom-bg': '#F4F1EC',
-          },
+
     },
   },
   plugins: [],
