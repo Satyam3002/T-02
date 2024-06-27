@@ -1,4 +1,4 @@
-// app/page.js
+
 'use client';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -57,7 +57,7 @@ const Home = () => {
             <UserList users={users} onUserSelect={handleUserSelect} />
           )}
         </div>
-        <div className="sm:w-1/2 h-full overflow-y-auto p-4">
+        <div className="sm:w-1/2 h-full overflow-y-auto  p-4">
           <UserDetails user={selectedUser} />
         </div>
       </div>
